@@ -505,12 +505,14 @@ header .conteiner {
 }
 
 .hero {
+  max-width: 1600px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/hero.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
   background-color: #2F303A;
+  background-repeat: no-repeat;
   margin: 0 auto;
 }
 
@@ -1017,6 +1019,7 @@ address {
 
 .footer-input {
   padding: 15px 16px;
+  margin-bottom: 12px;
   width: 358px;
   height: 50px;
   margin-right: 12px;
